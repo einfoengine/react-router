@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# React Router 
+Hey there, the react router tutorial starts from here. The react router is a very useful tool for react based one page application, yet this is not a core of react. Here we are gonna learnm, 
+-- What is it? 
+-- Why it is used for? 
+-- How to use it. 
+
+## 1. Make a react project.
+- Create react app: 'npx create react app'.
+- Install react router dom: 'npm i react-router-dom --save'.
+- Import component ** BrowserRouter, Route ** from 'react-router-dom'.
+- Wrap the app by "BrowserRouter".
+- Use 'Route' along with path, render & component. Best practice to use exact to ensure exact match.
+- We can use 'Switch' to load only one component.
+- Render is useful to pass props through the routs it self.
+## 2. Navigation
+- Make a component for navigation.
+- Import ** Link ** from 'react-router-dom' to create single page like rendering.
+- Use 'activeStyles' props to associate a style. You need to import ** NavLink ** for that.
+- To pass props through path we can do it using a ':' after certain path. i.e ** path='/posts/:postId' **
